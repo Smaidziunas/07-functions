@@ -167,11 +167,13 @@ formText(Hello World, 3) // Hello Wor
 {
 function formText(stringValue, number){
 
-  let result = stringValue.slice(0, stringValue.length-number);
+  let result = stringValue.slice(0, -(number));
+
+  // kaip gauti su length:
+  stringValue.length-number
   return result;
 }
-// console.log('formText ===', formText('John', 3));
-
+console.log('formText ===', formText('Hello World', 3));
 }
 
 

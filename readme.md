@@ -8,4 +8,7 @@
 
 - ## ! <![a an index inside her].includes(argument from the function)> - checks if elements inside the index is found (boolean);
 
+- ## ! <...() The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object;
+
+- ## ! <{...()} nukopijuoja shallow copy, meaning sukuria nauja copy, imdama objekto reiksmes o ne pati objekta;
 - ## typeof do not need any brackets or dots before : <typeof var =>
